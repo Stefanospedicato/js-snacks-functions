@@ -17,6 +17,16 @@ function inizialiNomi(array){
   return iniziali
  }
 
+//ARROW FUNCTION
+/*const inizialiNomi = array => {const iniziali=[];
+                                  for(let i = 0 ; i < array.length ; i++){
+                                    const firstLetter = array[i][0];
+                                    iniziali.push(firstLetter)
+                                  }
+                                  return iniziali
+                                }
+*/
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(inizialiNomi(names))
