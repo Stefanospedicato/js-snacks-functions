@@ -20,6 +20,18 @@ function inizialeLettera (array, lettera){
   return hannoInizialeLettera
 }
 
+//ARROW FUNCTION
+/*
+const inizialeLettera = (array,lettera) => {
+  const hannoInizialeLettera =[];
+  for(let i=0 ; i < array.length ; i++){
+    if(array[i][0] === lettera){
+     hannoInizialeLettera.push(array[i])
+    }
+  }
+  return hannoInizialeLettera
+}
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 
