@@ -10,8 +10,13 @@ const name = 'Mario';
 */
 
 function saluto(word){
-  return 'Ciao ' + word
+  return 'Ciao ' + word;
 }
+
+//ARROW FUNCTION
+/*
+const saluto = word = return 'Ciao ' + word;
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 
