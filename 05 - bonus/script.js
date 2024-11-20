@@ -30,7 +30,7 @@ function salutoGiorno(word){
 
 //ARROW FUNCTION
 /*
-const salutoGiorno = word = {
+const salutoGiorno = word => {
   let message;
   const date = new Date()
   const hour = date.getHours()

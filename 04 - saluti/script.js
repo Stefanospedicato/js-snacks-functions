@@ -15,7 +15,7 @@ function saluto(word){
 
 //ARROW FUNCTION
 /*
-const saluto = word = return 'Ciao ' + word;
+const saluto = word => 'Ciao ' + word;
 */
 
 // Invoca la funzione qui e stampa il risultato in console
