@@ -19,6 +19,18 @@ function numeroVocali(word){
   return contatore
 }
 
+//ARROW FUNCTION
+/*
+const numeroVocali = word => {
+  let contatore = 0
+  const vocali = ['a','e','i','o','u']
+  for(let i = 0; i < word.length; i++ ){
+    if(vocali.includes(word[i]))
+      contatore++
+  }
+  return contatore
+}
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 
