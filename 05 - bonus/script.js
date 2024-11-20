@@ -28,6 +28,22 @@ function salutoGiorno(word){
   return message + word
 }
 
+//ARROW FUNCTION
+/*
+const salutoGiorno = word = {
+  let message;
+  const date = new Date()
+  const hour = date.getHours()
+  if(hour<14){
+    message = 'Buongiorno '
+  } else if(hour>17){
+    message = 'Buonasera '
+  } else{
+    message = 'Buon pomeriggio '
+  }
+  return message + word
+}
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 
